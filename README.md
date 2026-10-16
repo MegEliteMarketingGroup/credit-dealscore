@@ -7,8 +7,8 @@ This project was built with AI Studio.
 Prefer working locally? You need Node.js and npm.
 
 ```sh
-git clone <this-repository-url>
-cd <repository-name>
+git clone https://github.com/MegEliteMarketingGroup/credit-dealscore.git
+cd credit-dealscore
 npm i
 npm run dev
 ```
