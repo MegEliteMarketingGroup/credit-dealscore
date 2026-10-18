@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer base { body{@apply m-0 bg-slate-50 text-ink antialiased;} input,select,button{@apply text-sm;} }
+@layer components{
+.panel{@apply rounded-2xl bg-white border border-slate-200 shadow-panel p-5;}
+.btn{@apply inline-flex items-center justify-center gap-2 rounded-xl px-4 py-2.5 font-semibold transition-colors;}
+.btn-blue{@apply btn bg-goat-blue text-white hover:bg-blue-800;}
+.btn-light{@apply btn bg-blue-50 text-goat-blue hover:bg-blue-100;}
+.field{@apply rounded-xl border border-slate-200 bg-white px-3 py-2.5 text-ink outline-none focus:border-goat-blue;}
+.label{@apply block text-[11px] font-bold uppercase tracking-wider text-slate-500 mb-1;}
+.pill{@apply inline-flex rounded-full px-2.5 py-1 text-xs font-bold;}
+}
